@@ -1,6 +1,6 @@
 import React from "react";
 import "./profiles.css";
-import { SiCodechef, SiHackerrank } from "react-icons/si";
+import { SiHackerrank } from "react-icons/si";
 import { SiLeetcode } from "react-icons/si";
 import { SiGeeksforgeeks } from "react-icons/si";
 

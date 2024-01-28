@@ -1,10 +1,10 @@
 import React from "react";
 import "./project.css";
-import IMG1 from "../../assests/project1.png";
-import NoteIMG from "../../assests/NoteApp.png";
-import SocialIMG from "../../assests/hostel.png";
-import FilmIMG from "../../assests/FilmFliker.png";
-import IMG2 from "../../assests/project2.png";
+// import IMG1 from "../../assests/project1.png";
+// import NoteIMG from "../../assests/NoteApp.png";
+import Hostel from "../../assests/hostel.png";
+import folio from "../../assests/Portfolio.png";
+// import IMG2 from "../../assests/project2.png";
 const Portfolio = () => {
   return (
     <section id="project">
@@ -14,7 +14,7 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={SocialIMG} alt="" />
+            <img src={Hostel} alt="" />
           </div>
           <h3>HOSTELENGINE.COM - Hostel Booking Website</h3>
           <div className="portfolio__item-cta">
@@ -33,15 +33,15 @@ const Portfolio = () => {
 
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={FilmIMG} alt="" />
+            <img src={folio} alt="" />
           </div>
-          <h3>FilmFliker - Movie Catalog Web-App</h3>
+          <h3>MyPortfolio - PersonalPortfolio</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/ManishK4514/FilmFliker" className="btn" target="_blank">
+            <a href="https://github.com/sazzisgithub/PersonalPortfolio-main.git" className="btn" target="_blank">
               Github
             </a>
             <a
-              href="https://filmfliker.netlify.app/"
+              href="https://sazzisgithub.github.io/PersonalPortfolio-main/"
               className="btn btn-primary"
               target="_blank"
             >
@@ -50,7 +50,7 @@ const Portfolio = () => {
           </div>
         </article>
 
-        <article className="portfolio__item">
+        {/* <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={NoteIMG} alt="" />
           </div>
@@ -67,48 +67,9 @@ const Portfolio = () => {
               Live Demo
             </a>
           </div>
-        </article>
+        </article> */}
 
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG1} alt="" />
-          </div>
-          <h3>My Portfolio</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com/ManishK4514/PersonalPortfolio" className="btn" target="_blank">
-              Github
-            </a>
-            <a
-              href="https://manishk4514.vercel.app/"
-              className="btn btn-primary"
-              target="_blank"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG2} alt="" />
-          </div>
-          <h3>Disney + Hotstar Clone - Movie Catalog</h3>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://github.com/ManishK4514/DisneyPlusClone.github.io"
-              className="btn"
-              target="_blank"
-            >
-              Github
-            </a>
-            <a
-              href="https://disneyplus4514.netlify.app/"
-              className="btn btn-primary"
-              target="_blank"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
+        
       </div>
     </section>
   );
