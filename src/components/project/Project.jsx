@@ -41,7 +41,7 @@ const Portfolio = () => {
               Github
             </a>
             <a
-              href="https://sajal-personal-portfolio.netlify.app/"
+              href="https://personal-portfolio-main-sigma.vercel.app/"
               className="btn btn-primary"
               target="_blank"
             >
