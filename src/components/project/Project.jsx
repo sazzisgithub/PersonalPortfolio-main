@@ -41,7 +41,7 @@ const Portfolio = () => {
               Github
             </a>
             <a
-              href="https://sazzisgithub.github.io/PersonalPortfolio-main/"
+              href="https://sajal-personal-portfolio.netlify.app/"
               className="btn btn-primary"
               target="_blank"
             >
