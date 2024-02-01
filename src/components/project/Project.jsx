@@ -1,10 +1,8 @@
 import React from "react";
 import "./project.css";
-// import IMG1 from "../../assests/project1.png";
-// import NoteIMG from "../../assests/NoteApp.png";
 import Hostel from "../../assests/hostel.png";
 import folio from "../../assests/Portfolio.png";
-// import IMG2 from "../../assests/project2.png";
+import to_do_l from "../../assests/to_do.png";
 const Portfolio = () => {
   return (
     <section id="project">
@@ -50,24 +48,24 @@ const Portfolio = () => {
           </div>
         </article>
 
-        {/* <article className="portfolio__item">
+        <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={NoteIMG} alt="" />
+            <img src={to_do_l} alt="" />
           </div>
-          <h3>NoteApp - Note Taking Web-App</h3>
+          <h3>TO DO LIST</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/ManishK4514/NoteApp" className="btn" target="_blank">
+            <a href="https://github.com/sazzisgithub/to_do_list" className="btn" target="_blank">
               Github
             </a>
             <a
-              href="http://noteapp4514.netlify.app/"
+              href="https://to-do-list-green-seven.vercel.app/"
               className="btn btn-primary"
               target="_blank"
             >
               Live Demo
             </a>
           </div>
-        </article> */}
+        </article> 
 
         
       </div>
